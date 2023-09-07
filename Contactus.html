@@ -5,20 +5,48 @@
     <title>Contact Us</title>
   </head>
   <body>
-    <h1>Contact Us</h1>
-    <p>Fill in the Following Form</p>
+    <h2 >Contact Us</h2>
+    <p ><u>Fill in the Following Form</u></p>
     <form action="Home.html">
+      <fieldset>
+        <legend>Personal Info</legend>
       <label for="fName">First Name</label>
-      <input id="fName" name="fName" type="text" placeholder="Enter first name" />
+      <input id="fName" name="fName" type="text" placeholder="Enter first name"  required/>
       <br />
       <label for="lName">Last Name</label>
-      <input id="lName" name="lName" type="text" placeholder="Enter last name"/>
+      <input id="lName" name="lName" type="text" placeholder="Enter last name" required/>
       <br />
-      <label for="email"> Email </label>
-      <input id="email" name="email" type="email" placeholder="someone@gmail.com" />
-      <br />
+      <label for="birthdate"> Birthdate </label>
+      <input id="birthdate" name="birthdate" type="date" required/>
+      <br>
       <label for="Phone"> Phone </label>
-      <input id="Phone" name="Phone" type="number" placeholder="00-0000-0000"/>
+      <input id="Phone" name="Phone" type="number" placeholder="00-0000-0000" required/>
+      
+    </fieldset>
+      <br />
+      <fieldset>
+        <legend>Login Details</legend>
+      <label for="email"> Email </label>
+      <input id="email" name="email" type="email" placeholder="someone@gmail.com" required/>
+      <br />
+      <label for="Password"> Password </label>
+      <input id="Password" name="Password" type="Password" required/>
+      <br />
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>More Info</legend>
+      <label for="cars">Cars</label>
+      <select id="cars" name="cars">
+        <option value="Select">Select</option>
+        <option value="BMW">BMW</option>
+        <option value="Fiat" selected>Fiat</option>
+        <option value="Firary">Firary</option>
+      </select>
+      <br>
+      
+       <label for="Description"> Description </label>
+      <textarea rows="10" cols="30" id="Description" name="Description" type="textarea" placeholder="Type your messege here"></textarea>
       <br/>
       <label for="eng"> Choose Your Favorite Language </label> <br/>
       <input type="radio" id="eng" name="fav-lang" value="eng" checked/>
@@ -27,8 +55,20 @@
       <label for="eng"> العربيه </label>
       <input type="radio" id="spanish" name="fav-lang" value="spanish"/>
       <label for="eng"> Spanish </label>
+      <bR>
+        <label for="color">Theme color </label>   <input type="color"  id="color" value="color" name="color"/>
+        <bR>
+          <label for="cv">upload cv </label>   <input type="file"  id="cv" value="cv" name="cv" required/>
+          
       <br/>
-      <input type="submit" />
+    </fieldset>
+      <label for="html">Recieve Newsletter </label> <input type="checkbox" id="html" value="html" name="html"/>
+      <br/>
+      <label for="logged"> Keep me logged in  </label> <input type="checkbox" id="logged" value="logged" name="logged"/>
+     <br>
+     <input type="hidden" id="secretanswer" value="123456"/>
+     <input type="button" value="Send Messege" onclick="alert('Messeg sent')">
+       <input type="reset" value="Delete Messege"/><input type="submit" value="Submit "/> 
     </form>
   </body>
 </html>
