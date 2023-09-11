@@ -1,0 +1,43 @@
+h1{
+    color:rgb(50,50,100);
+
+}
+h2{
+    font-size: 18px;
+    
+}
+p{
+
+    font-size: 13.5px;
+    color:grey;
+}
+ul{
+    font-size: 13.5px;
+    color:grey;
+
+}
+ #intro-para
+ {
+    font-size: 18px;
+
+ }
+#position
+{
+    color:darkblue;
+    font-size: 15px;
+
+}
+.boxed-section{
+    /* border:2px solid; */
+    /* background-color:beige; */
+    background-color:rgba(100, 100, 100, 0.5)
+}
+.withBG{
+
+  /* background-image: url("IMG_4087.jpg");   */
+  /* background-repeat: repeat; */
+  /* background-position: center; */
+  /* background-size: contain; */
+  /* background-attachment: scroll; */
+  background:grey url("IMG_4087.jpg") repeat  scroll ;
+}
