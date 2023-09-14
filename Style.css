@@ -41,3 +41,64 @@ ul{
   /* background-attachment: scroll; */
   background:grey url("IMG_4087.jpg") repeat  scroll ;
 }
+/* div{
+
+    max-height:300px;
+    width:300px;
+} */
+.boxmodel{
+
+
+border:3px groove grey ;
+padding: 10px ;
+border-radius: 15px;
+margin :8px;
+width:90%;
+vertical-align:bottom;
+text-decoration:underline aqua wavy 3px;
+
+text-indent: 5px;
+letter-spacing: 3px;
+line-height: 123%;
+word-spacing: 3px;
+
+white-space: wrap;
+text-shadow:3px 1px 5px black ;
+
+/* border-style: groove;
+border-width: 5px;
+border-color: blue; */
+/* text-transform: capitalize; */
+/* text-decoration-color: aqua;
+text-decoration-line: underline;
+text-decoration-style: wavy;
+text-decoration-thickness: 2px; */
+
+/* only work with text */
+
+/* text-align: left;
+text-align-last: right; */
+
+/* direction: ltr;
+unicode-bidi: bidi-override; */
+
+ /*margin: 100px 30px 100px 30px; 
+ margin: 100px 30px 80px;
+ margin: 100px 30px; */
+
+ /* min-height:100px;
+ height: 100px;
+ max-height: 600px;
+ min-width:300px;
+ width:500px;
+ max-width: 600px; */
+}
+.boxpadding{
+    border:3px groove grey ;
+    padding: 100px 30px ;
+}
+.boxmargin{
+    border:3px groove grey ;
+margin: 5px 5px 5px 5px;
+
+}
