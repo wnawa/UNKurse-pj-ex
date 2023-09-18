@@ -1,104 +1,173 @@
-h1{
-    color:rgb(50,50,100);
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("./Assets/Fonts/Roboto/Roboto-Black.ttf"),
+    url("./Assets/Fonts/Roboto/Roboto-Medium.ttf"),
+    url("./Assets/Fonts/Roboto/Roboto-Light.ttf"),
+    url("./Assets/Fonts/Roboto/Roboto-Thin.ttf"),
+    url("./Assets/Fonts/Roboto/Roboto-Regular.ttf");
+}
+h1 ,h2{
+  color: rgb(50, 50, 100);
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+ul,ol{
+  align-items: center;
+  width:30%;
+list-style-type: disc;
+background-color: yellow;
 
 }
-h2{
-    font-size: 18px;
-    
+li{
+  background-color: red;
 }
-p{
-
-    font-size: 13.5px;
-    color:grey;
+table{
+  width:50%;
+  border:1px solid black;
+  border-collapse: collapse;
+  vertical-align: middle;
+  
 }
-ul{
-    font-size: 13.5px;
-    color:grey;
-
+td{
+  /* background-color: blue; */
+  border-bottom: 1px solid black;
 }
- #intro-para
- {
-    font-size: 18px;
-
- }
-#position
-{
-    color:darkblue;
-    font-size: 15px;
+th{background-color: grey;}
+th:hover{
+  background-color: yellow;
 
 }
-.boxed-section{
-    /* border:2px solid; */
-    /* background-color:beige; */
-    background-color:rgba(100, 100, 100, 0.5)
+tr{
+  background-color: white;
 }
-.withBG{
+tr:nth-child(odd){
+  background-color: red;
+}
+p {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  font-weight: 200;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: grey;
+}
+a:hover {
+  color: yellow;
+}
+a:active {
+  color: red;
+}
 
+h2 {
+  font-size: 18px;
+}
+ul {
+  font-size: 13.5px;
+  color: grey;
+}
+
+#intro-para {
+  font-size: 18px;
+}
+
+#position {
+  color: darkblue;
+  font-size: 15px;
+}
+
+.boxed-section {
+  /* border:2px solid; */
+  /* background-color:beige; */
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+.withBG {
   /* background-image: url("IMG_4087.jpg");   */
   /* background-repeat: repeat; */
   /* background-position: center; */
   /* background-size: contain; */
   /* background-attachment: scroll; */
-  background:grey url("IMG_4087.jpg") repeat  scroll ;
+  background: grey url("IMG_4087.jpg") repeat scroll;
 }
+
 /* div{
 
     max-height:300px;
     width:300px;
 } */
-.boxmodel{
+/* Day7 */
+.boxmodel {
+  border: 3px groove grey;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 8px;
+  width: 90%;
+  vertical-align: bottom;
+  text-decoration: underline aqua wavy 3px;
 
+  text-indent: 5px;
+  letter-spacing: 3px;
+  line-height: 123%;
+  word-spacing: 3px;
 
-border:3px groove grey ;
-padding: 10px ;
-border-radius: 15px;
-margin :8px;
-width:90%;
-vertical-align:bottom;
-text-decoration:underline aqua wavy 3px;
+  white-space: wrap;
+  text-shadow: 1px 1px 2px black;
 
-text-indent: 5px;
-letter-spacing: 3px;
-line-height: 123%;
-word-spacing: 3px;
-
-white-space: wrap;
-text-shadow:3px 1px 5px black ;
-
-/* border-style: groove;
+  /* border-style: groove;
 border-width: 5px;
 border-color: blue; */
-/* text-transform: capitalize; */
-/* text-decoration-color: aqua;
+  /* text-transform: capitalize; */
+  /* text-decoration-color: aqua;
 text-decoration-line: underline;
 text-decoration-style: wavy;
 text-decoration-thickness: 2px; */
 
-/* only work with text */
+  /* only work with text */
 
-/* text-align: left;
+  /* text-align: left;
 text-align-last: right; */
 
-/* direction: ltr;
+  /* direction: ltr;
 unicode-bidi: bidi-override; */
 
- /*margin: 100px 30px 100px 30px; 
+  /*margin: 100px 30px 100px 30px; 
  margin: 100px 30px 80px;
  margin: 100px 30px; */
 
- /* min-height:100px;
+  /* min-height:100px;
  height: 100px;
  max-height: 600px;
  min-width:300px;
  width:500px;
  max-width: 600px; */
 }
-.boxpadding{
-    border:3px groove grey ;
-    padding: 100px 30px ;
-}
-.boxmargin{
-    border:3px groove grey ;
-margin: 5px 5px 5px 5px;
 
-}
+/* Day 8 */
+/* p { */
+/* font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: 500;
+font-variant:small-caps;
+font-size: 25px;
+line-height: 48px;  */
+
+/* *****NB: line height best to be bigger thank font size  */
+/* font:25px small-caps   italic 500 Arial 48px ; */
+
+/* ***** google fonts */
+/* font-size: 20px;
+  font-family: "Roboto";
+  font-weight:normal; */
+/* } */
+
+/* h1 {
+   font-size: 30px;
+  font-family: "Roboto";
+  font-weight: black; 
+
+} */
